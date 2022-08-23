@@ -17,3 +17,13 @@ header {
     height: 50px;
     padding-left: 10px;
 }
+
+nav{
+    text-decoration: underline;
+    display: inline-flex;
+    float: right;
+}
+
+nav p {
+    margin: 10px;
+}
