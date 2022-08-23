@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
@@ -7,6 +13,7 @@ body{
 }
 
 /* header */
+
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
@@ -26,4 +33,11 @@ nav{
 
 nav p {
     margin: 10px;
+}
+
+/* Main body */
+#mission {
+    background-image: url(./media/mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
 }
